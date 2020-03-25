@@ -1,0 +1,530 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:;
+}
+header{
+	background-color: #e0ebe8;
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+h2{
+	color: #66BFBF;
+	font-size: 2.7rem;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: 'Baloo Thambi 2', cursive;
+}
+h3{
+	color: #11999E;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	font-size: 1.56rem;
+}
+a{
+	color: #11999E;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+	color:#606060; 
+
+}
+hr{
+	border-style: dotted none none ;
+	border-width: 5px;
+	width: 60px;
+	margin: 3px auto;
+	color:#EAF6F6;
+
+}
+.container{
+	
+	margin-top: auto;
+	margin-bottom: auto;
+
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.first-cfluid{
+	background-color: #e0ebe8;
+}
+/* -------------------------Top Header Nav Bar------------------------------- */
+
+
+.navbar{
+	background-color: #e0ebe8 !important;
+	margin-top:0 50px 30px 50px;
+	padding:30px 100px 0 100px ;
+}
+.profile-image{
+	height: 5em;
+	width: 4.8em;
+}
+
+#h{
+	padding: 20px;
+	background-color: #e0ebe8;
+
+
+}
+#h .img-thumbnail{
+	border: none;
+	background-color: #e0ebe8;
+}
+/* -----------------------------Tittle div------------------------ */
+.title-container{
+	
+}
+#tcd{
+	height: auto;
+}
+#tc{
+	text-align: center;
+	background-color: #e0ebe8;
+
+}
+.top-cloud img{
+	position: absolute;
+	top: 30px;
+	right:70px;
+}
+.bottom-cloud img{
+	position: absolute;
+	bottom: 50px;
+	left: 70px;
+}
+.landimage{
+	margin-top: 10px;
+}
+#tc h2{
+	color: #3EA08A;
+	font-family: 'Satisfy', cursive;
+	font-size: 80px;
+	margin: 80px auto 0px auto;
+}
+#tc p{
+	color: #45b29a;
+	font-family: 'Baloo 2', cursive;
+	font-size: 25px;
+	letter-spacing: 1px;
+	padding: 25px;
+	margin: auto auto 60px auto;
+	font-weight: normal;
+}
+#tc .img-thumbnail{
+	border: none;
+	background-color:#e0ebe8;
+}
+/* ---------------------------------profile------------------- */
+.profileimage{
+	width: 18%;
+}
+
+.profile{
+
+	text-align: center;
+
+	margin: 100px auto 50px auto;
+	font-size: 20px;
+	line-height: 2;
+}
+.profile-description{
+	width: 40%;
+	margin: 0 auto 0 auto;
+	font-size: 1.125rem;
+	padding-top: 0;
+	font-weight: 400;
+	color: #606060;
+}
+/* -------------------------------skill section----------------- */
+
+.skill-row{
+
+	width: 80%;
+	margin: 70px auto 70px auto;
+	text-align:left;
+	line-height: 2;
+	font-size: 1.125rem;
+}
+.webdev-image{
+
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+.dance-image{
+
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-left:10px;
+}
+.mic-image{
+
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-right:10px;
+}
+
+.skills h3{
+	margin: 20px 0 20px 0 ;
+}
+.skills h2{
+	text-align: center;
+	margin-top: 50px;
+}
+.skills p{
+	font-weight: 400;
+	color: #606060;
+}
+/* ------------------------contact------------------ */
+.contact-me{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+.contact-me h3{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.contact-me h2{
+	margin-bottom: 20px;
+}
+.contactme-description{
+	width: 80%;
+	margin: 30px auto 60px auto;
+	font-size: 125%;
+	line-height: 1.5;
+	text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px -2px 0px 0px #81ccba;
+	background:linear-gradient(to bottom, #00d6a4 5%, #2e9e84 100%);
+	background-color:#00d6a4;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:21px;
+	padding:14px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #61e0c2;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #2e9e84 5%, #00d6a4 100%);
+	background-color:#2e9e84;
+	color: white;
+	text-decoration: none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* ------------------------------foter--------------------- */
+.footer {
+    width: 100%;
+    height:auto;
+    color: darkgrey;
+    text-align: center;
+    }
+    .social-media-icon img{
+    height: 50px;
+    width: 50px;
+    }
+    .toprow{
+    
+    width: 40%;
+    text-align: center;
+    line-height: 50px;
+    }
+    .footer li{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    }
+    li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding:5px;
+    }
+    li a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    }
+    .social-media-icon .linkedin{
+    height: 60px;
+    width: 60px;
+    }
+    .social-media-icon .facebook{
+    height: 45px;
+    width: 45px;
+    }
+    .footer-h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    }
+    .lastrule{
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 800px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    }
+    .footer{
+    padding: 20px;
+    background-color: #c5ded7;
+    margin-top: 50px;
+    }
+    .button-new a{
+    text-decoration: none;
+    color: white;
+    }
+    .skill-row a:hover{
+    text-decoration: none;
+    
+    }
+
+
+/* ---------------------Mewdia query section--------------------- */
+
+@media(max-width: 600px){
+	/* -------------------Top Header Nav Bar------------------- */
+	.navbar{
+	background-color: #e0ebe8 !important;
+	margin-top:0 2px 0 2px;
+	padding:20px 0 0 0 ;
+	}
+	.profile-image{
+		height: 3em;
+		width: 2.5em;
+	}
+	#h{
+		padding: 5px;
+		background-color: #e0ebe8;
+	}
+
+/* -----------------------------Tittle div------------------------ */
+
+	.top-cloud img{
+		position: absolute;
+		top: 10px;
+		right:1px;
+		height: 100px;
+		width: 100px;
+	}
+	.bottom-cloud img{
+		position: absolute;
+		bottom: 8px;
+		left: 1px;
+		height: 110px;
+		width: 110px;
+	}
+	#tc h2{
+		color: #3EA08A;
+		font-family: 'Satisfy', cursive;
+		font-size: 45px;
+		margin: 50px auto 0px auto;
+		padding-top:20px;
+	}
+	#tc p{
+		color: #45b29a;
+		font-family: 'Baloo 2', cursive;
+		font-size: 15px;
+		letter-spacing: 1px;
+		padding: 25px auto 25px auto;
+		margin: auto auto 50px auto;
+		font-weight: normal;
+	}
+	#tc .img-thumbnail{
+		border: none;
+		background-color:#e0ebe8;
+	}
+	
+/* ---------------------------------profile------------------- */
+.profileimage{
+	width: 130px;
+	height: 130px
+}
+
+.profile{
+
+	text-align: center;
+
+	margin: 50px auto 30px auto;
+	font-size: 15px;
+	line-height: 1.8;
+}
+.profile-description{
+	width: 90%;
+	margin: 0 auto 0 auto;
+	font-size: 18px;
+	text-align: center;
+	font-weight:400;
+	color: #606060;
+}
+/* -------------------------------skill section----------------- */
+
+.skill-row{
+
+	width: 100%;
+	margin: 70px auto 70px auto;
+	text-align:center;
+	line-height: 2;
+	font-size: 18px;
+}
+.webdev-image{
+	height: 130px;
+	width: 130px;
+	margin-left: 27%;
+}
+.dance-image{
+
+	height: 130px;
+	width: 130px;
+	margin-right:32%;
+	
+}
+.mic-image{
+
+	height: 130px;
+	width: 130px;
+	margin-left: 27%;
+}
+
+.skills h3{
+	margin: 20px 0 20px 0 ;
+}
+.skills h2{
+	text-align: center;
+	margin-top: 15px;
+}
+.skills p{
+	font-weight: 400;
+	color: #606060;
+}
+/* ------------------------contact------------------ */
+.contact-me{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+.contact-me h3{
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.contact-me h2{
+	margin-bottom: 20px;
+}
+.contactme-description{
+	width: 80%;
+	margin: 30px auto 60px auto;
+	font-size: 125%;
+	line-height: 1.5;
+	text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px -2px 0px 0px #81ccba;
+	background:linear-gradient(to bottom, #00d6a4 5%, #2e9e84 100%);
+	background-color:#00d6a4;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:12px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #61e0c2;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #2e9e84 5%, #00d6a4 100%);
+	background-color:#2e9e84;
+	color: white;
+	text-decoration: none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* ------------------------------foter--------------------- */
+.footer {
+    width: 100%;
+    height:auto;
+    color: darkgrey;
+    text-align: center;
+    }
+    .toprow{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    }
+    .social-media-icon img{
+    height: 40px;
+    width: 40px;
+    }
+   .social-media-icon li{
+   	margin-left: 50%;
+
+   }
+    .footer li{
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    }
+    li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding:3px;
+    display: none;
+    }
+ 
+    li a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    }
+    .social-media-icon .linkedin{
+    height: 50px;
+    width: 50px;
+    }
+    .social-media-icon .facebook{
+    height: 35px;
+    width: 35px;
+    }
+    .footer-h2{
+    font-size: 15px;
+    margin-bottom: 30px;
+    }
+    .lastrule{
+    border: 1px solid black;
+    border-radius: 1px;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    }
+    .footer{
+    padding: 20px;
+    background-color: #c5ded7;
+    margin-top: 50px;
+    }
+    .button-new a{
+    text-decoration: none;
+    color: white;
+    }
+    .skill-row a:hover{
+    text-decoration: none;
+    
+    }
+
+}
