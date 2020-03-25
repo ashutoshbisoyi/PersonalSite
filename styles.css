@@ -116,6 +116,9 @@ hr{
 	border: none;
 	background-color:#e0ebe8;
 }
+.img-thumbnail{
+	border: none;
+}
 /* ---------------------------------profile------------------- */
 .profileimage{
 	width: 18%;
